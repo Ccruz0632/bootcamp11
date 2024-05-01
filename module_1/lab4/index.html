@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <!-- HTML page structure -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"  initial-scale="1.0" >
+    <title>My title</title>
+</head>
+<body>
+    <form>
+    <!-- form tag -->
+    <form action="/submit-form" method="post">
+
+        <!-- tag of label and input tags -->
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="gmail"Email:></label>
+        <input type="text" id="email" placeholder="Enter your Email">
+        <br>   
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+        <br>
+ <!-- tag of gender -->
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </fieldset>
+ <!-- tag of browser -->
+                    <label for="browser" >choose your browser from the list:</label>
+            <input list="browsers" id="browser"  name="browser"> 
+            <datalist id="browsers">  
+                <option value="Chrome">
+                <option value="Explorer">
+                <option value="Firefox">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+         
+ <!-- button tag -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
