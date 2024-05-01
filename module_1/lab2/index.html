@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <!-- HTML: Image Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0>">
+    <title>HTML5 Image Tags Example</title>
+</head>
+<body>
+
+    <figure>
+        <img src="https://via.placeholder.com/480x480.png/FF5533" alt="Description of the image">
+        <figcaption>This is a caption for the image.</figcaption>
+
+        <img src="https://via.placeholder.com/580x680.png/AA55FF" alt="Description of the image">
+        <figcaption>This is a caption for the image.</figcaption>
+        
+    </figure>
+
+  <picture>
+        <source media="(min-width: 650px)" srcset="https://via.placeholder.com/580x680.png/AA55FF">
+        <source media="(min-width: 465px)" srcset="https://via.placeholder.com/480x480.png/FF5533">
+        <img src="https://via.placeholder.com/360x100.png/BB5500" alt="Description of the image">
+  
+        <source media="(min-width: 650px)" srcset="https://via.placeholder.com/580x680.png/AA55FF">
+        <source media="(min-width: 465px)" srcset="https://via.placeholder.com/480x480.png/FF5533">
+        <img src="https://via.placeholder.com/360x100.png/BB5500" alt="Description of the image">
+
+        <source media="(min-width: 650px)" srcset="https://via.placeholder.com/580x680.png/AA55FF">
+        <source media="(min-width: 465px)" srcset="https://via.placeholder.com/480x480.png/FF5533">
+        <img src="https://via.placeholder.com/1536x100.png/FFAA99" alt="Description of the image">
+
+        <source media="(min-width: 650px)" srcset="https://via.placeholder.com/580x680.png/AA55FF">
+        <source media="(min-width: 465px)" srcset="https://via.placeholder.com/480x480.png/FF5533">
+        <img src="https://via.placeholder.com/1536x100.png/99BC11" alt="Description of the image">
+
+     </picture>
+  </body>
+</html>
