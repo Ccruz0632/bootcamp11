@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+  
+  
+  h3{
+      text-decoration-line: overline underline;
+      text-decoration-color: purple;
+    }
+  
+    p {
+      background-color: blue;
+      border: 2px solid green;
+      border-radius: 4px;
+      }
+     
+  
+  header {
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  article {
+    font-size: 24px;
+        margin-top: 1px;
+        margin-bottom: 5x;
+        margin-right: 0x;
+        margin-left: 1px;
+        background-color: yellow
+  
+  }
+  
+  div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+  }
+    
+  .box{
+    border-style: dashed;
+    background-color: green;
+    border-radius: 30%
+  
+  }
+  
+  .section {
+  background-color: black
+  font-size: 24px;
+  margin-top: 1px;
+  margin-bottom: 5x;
+  margin-right: 0x;
+  margin-left: 1px;
+  }
+  
+  img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40%;
+        }
+      
+        input[type=text] {
+          border: 2px solid green;
+          border-radius: 4px;
+        }
+      
+  footer {
+  background-color: purple
+  }
+  
