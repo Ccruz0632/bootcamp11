@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Modulo 3, Ejercicio 3</title>
+</head>
+<body>
+    <section class="container">
+        <section id="content" class="row">
+            <h1>Modulo 3, Ejercicio 3</h1>
+            <article class="col-6">
+            </article>
+            <article class="col">
+                <form id="DataForm">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInputProductName" placeholder="Enter the name of product">
+                        <label for="floatingInputProductName">Product Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInputProductType" placeholder="Enter the Product Type">
+                        <label for="floatingInputProductType">Type of Product</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInputQuantity" placeholder="Quantity">
+                        <label for="floatingInputQuantity">Quantity</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInputPrice" placeholder="Price($)">
+                        <label for="floatingInputPrice">Price in Col Pesos</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingInputLatitud" placeholder="Latitud">
+                        <label for="floatingInputLatitud">Latitud</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingInputLongitud" placeholder="Longitud">
+                        <label for="floatInginputLongitud">Longitud</label>
+                    </div>
+                    <div class="mb-3 offset-5 col-6">
+                        <button type="button" class="btn btn-primary" onclick="getProductDataForm()">Guardar</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+ 
+        <footer class="row">
+            <div class="col">
+                <span>Carlos Alberto Cruz &copy;</span>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <script src="lab3.js"></script>
+</body>
+</html>
